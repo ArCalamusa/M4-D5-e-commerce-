@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M4-D7_BO</title>
+</head>
+<body>
+
+    <h2>Aggiungi un nuovo prodotto</h2>
+    <table>
+        <form id="add-product-form">
+            <tr>
+                <td><label for="name">Nome:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="description">Descrizione:</label></td>
+                <td><textarea type="text" id="description" name="description" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="brand">Marca:</label></td>
+                <td><input type="text" id="brand" name="brand" required></td>
+            </tr>
+            <tr>
+                <td><label for="imageUrl">URL dell'immagine:</label></td>
+                <td><input type="url" id="imageUrl" name="imageUrl" required></td>
+            </tr>
+            <tr>
+                <td><label for="price">Prezzo:</label></td>
+                <td><input type="number" id="price" name="price" required></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Aggiungi</button></td>
+            </tr>
+        </form>
+    </table>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
